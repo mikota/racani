@@ -282,6 +282,10 @@ void myKeyboard(unsigned char theKey, int mouseX, int mouseY)
 
 void idle() {
     dt_update();
+    if (LAB == 1) {
+        u += dt_get()*100;
+        if (u >= spline.curve_pts.size()) u = 0;
+    }
     if (LAB == 2) {
         int random_chance = rain.ripples.ornamental ? 6 : 25;
         if (rand() % 100 < random_chance) {
@@ -294,8 +298,6 @@ void idle() {
         rain.update();
         rain.ripples.update();
     }
-    u++;
-    if (u >= spline.curve_pts.size()) u = 0;
     if (LAB == 3) {
         balloon.update();
         balloon.water.update();

@@ -1,0 +1,9 @@
+<img src="img/lab1.gif"
+      alt="Markdown Monster icon"
+      width = "200px"/>
+<img src="img/lab2.gif"
+      alt="Markdown Monster icon"
+      width = "200px"/>
+<img src="img/lab3.gif"
+      alt="Markdown Monster icon"
+      width = "200px"/>

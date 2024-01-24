@@ -13,7 +13,7 @@
 #include "seaside.h"
 
 
-constexpr int LAB = 3;
+constexpr int LAB = 1;
 
 GLuint width = 768, height = 768;
 float u = 0;
